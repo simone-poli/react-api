@@ -31,7 +31,7 @@ function App() {
     <>
       <h1 className="text-center bg-danger p-3">Actress</h1>
       
-      <section>
+      <section id="actress">
         <div className="container mt-4">
           <div className="row row-cols-1 row-cols-md-5 g-3">
             {actressInfo && actressInfo.map(info => {
@@ -55,7 +55,7 @@ function App() {
       </section>
       <h1 className="text-center bg-primary p-3 mt-4" >Actors</h1>
       
-      <section>
+      <section id="actors">
         <div className="container mt-4">
           <div className="row row-cols-1 row-cols-md-5 g-3">
             {actorsInfo && actorsInfo.map(info => {
