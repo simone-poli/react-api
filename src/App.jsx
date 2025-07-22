@@ -7,6 +7,12 @@ function App() {
   const [urlApi, setUrlApi] = useState(url)
 
 
+  fetch(urlApi)
+  .then(res => res.json())
+  .then(data => {
+    console.log(data)
+  })
+
   return (
     <>
       
